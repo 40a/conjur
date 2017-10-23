@@ -121,7 +121,6 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.8rem;
-  //color: $conjur-text;
 }
 
 .page {
@@ -130,7 +129,6 @@ p {
   font-size: 16px;
   line-height: 1.8rem;
   color: $conjur-text;
-  //font-weight: 300;
 
   h2 {
     margin: 3rem 0 1rem 0;
@@ -162,3 +160,34 @@ p {
     order: 4;
   }
 }
+
+
+// ***********************
+// Tables
+// ***********************
+
+table {
+  width: 100%;
+  text-align: left;
+
+  th, td {
+    padding: 20px 10px;
+  }
+
+  tr {
+    border-bottom: 2px solid $conjur-ltgray;
+    &:last-of-type {
+      border-bottom: 0;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+//
